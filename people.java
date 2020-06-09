@@ -1,6 +1,6 @@
 package schoolSystem;
 
-public class people {
+public class People {
 	
 	private String firstName;
 	private String lastName;
@@ -14,7 +14,7 @@ public class people {
 	private String role;
 	
 //	Constructed with just the names
-	public people(String firstName, String lastName) {
+	public People(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
@@ -65,8 +65,6 @@ public class people {
 	public String getContractStartDate() {
 		return startOfContract;
 	}
-	
-	
 	
 	public void addContractEndDate(String endDate) {
 		this.endOfContract = endDate;
@@ -133,7 +131,4 @@ public class people {
 	public String getRole() {
 		return role;
 	}
-	
-	
-	
 }
